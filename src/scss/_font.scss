@@ -4,9 +4,18 @@
 }
 
 @font-face {
-  font-family: "Ferro";
-  src:
-    url("../assets/fonts/FerroTest-RegularI.woff") format("woff"),
-    url("../assets/fonts/FerroTest-RegularII.woff") format("woff"),
-    url("../assets/fonts/FerroTest-ItalicII.woff") format("woff");
+  font-family: "Ferro Regular I";
+  src: url("../assets/fonts/FerroTest-RegularI.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ferro Regular II";
+  src: url("../assets/fonts/FerroTest-RegularII.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Ferro Italic II";
+  src: url("../assets/fonts/FerroTest-ItalicII.woff") format("woff");
 }

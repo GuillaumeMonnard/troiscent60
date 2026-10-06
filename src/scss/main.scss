@@ -2,6 +2,10 @@
 @import "base";
 @import "layout";
 
+body {
+  padding: 50px;
+}
+
 .druk {
   font-family: "Druk";
   text-transform: uppercase;

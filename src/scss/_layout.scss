@@ -7,3 +7,21 @@
   grid-template-rows: repeat(6, minmax(0, 1fr));
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
+
+.hero {
+  width: 41.80463rem;
+  align-self: stretch;
+  grid-row: 1 / span 2;
+  grid-column: 2 / span 5;
+  justify-self: MIN;
+  color: var(--black-800);
+  text-align: center;
+
+  /* home/hero */
+  font-family: "Druk Condensed Trial";
+  font-size: 23.375rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}

@@ -16,6 +16,8 @@
   justify-self: MIN;
   color: var(--black-800);
   text-align: center;
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
 
   /* home/hero */
   font-family: "Druk Condensed Trial";
@@ -24,4 +26,20 @@
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.rectangle {
+  align-self: stretch;
+  grid-row: 1 / span 3;
+  grid-column: 1 / span 1;
+  justify-self: stretch;
+}
+
+.noir {
+  background-color: var(--black-800);
+}
+.test {
+  background-color: var(--black-800);
+  width: 200px;
+  height: 100px;
 }

@@ -1,0 +1,38 @@
+h1 {
+  font-family: "Druk";
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 62.77213rem;
+  height: 55.8125rem;
+  font-size: var(--page-title, 18.75rem);
+}
+
+.header-article {
+  display: flex;
+  align-items: flex-start;
+  gap: 3.125rem;
+  align-self: stretch;
+}
+.article-info-container {
+  display: flex;
+  width: 21.375rem;
+  height: 55rem;
+  padding: 1.875rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: var(--black-800, #242424);
+}
+
+.header-article p {
+  color: var(--white-100, #f7f6f2);
+
+  /* faq/text */
+  font-family: "Ferro Italic II";
+  font-size: var(--faq-text, 1.875rem);
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -28,16 +28,33 @@
   text-transform: uppercase;
 }
 
-.rectangle {
+#rectangle1,
+#rectangle2,
+#rectangle3 {
   align-self: stretch;
   grid-row: 1 / span 3;
   grid-column: 1 / span 1;
   justify-self: stretch;
 }
 
+#rectangle2 {
+  grid-row: 1 / span 2;
+  grid-column: 8 / span 5;
+}
+
+#rectangle3 {
+  grid-row: 4 / span 3;
+  grid-column: 1 / span 2;
+}
+
 .noir {
   background-color: var(--black-800);
 }
+
+.rouge {
+  background-color: var(--accent);
+}
+
 .test {
   background-color: var(--black-800);
   width: 200px;

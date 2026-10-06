@@ -1,0 +1,9 @@
+#layout1 {
+  display: grid;
+  height: 61.375rem;
+  row-gap: 0.9375rem;
+  column-gap: 15px;
+  align-self: stretch;
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
